@@ -2,7 +2,7 @@ package main
 
 // 62. Unique Paths
 //
-// https://leetcode.com/problems/unique-paths/
+// https://leetcode.com/problems/unique-paths
 func uniquePaths(m int, n int) int {
 	dp := make([][]int, m)
 	for i := range dp {

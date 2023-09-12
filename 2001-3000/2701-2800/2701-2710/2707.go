@@ -2,7 +2,7 @@ package main
 
 // 2707. Extra Characters in a String
 //
-// https://leetcode.com/problems/extra-characters-in-a-string/
+// https://leetcode.com/problems/extra-characters-in-a-string
 func minExtraChar(s string, dictionary []string) int {
 	n := len(s)
 	dp := make([]int, n+1)

@@ -2,7 +2,7 @@ package main
 
 // 138. Copy List with Random Pointer
 //
-// https://leetcode.com/problems/copy-list-with-random-pointer/
+// https://leetcode.com/problems/copy-list-with-random-pointer
 func copyRandomList(head *Node) *Node {
 	if head == nil {
 		return nil

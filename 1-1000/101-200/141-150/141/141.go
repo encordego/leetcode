@@ -2,7 +2,7 @@ package main
 
 // 141. Linked List Cycle
 //
-// https://leetcode.com/problems/linked-list-cycle/
+// https://leetcode.com/problems/linked-list-cycle
 func hasCycle(head *ListNode) bool {
 	visited := make(map[*ListNode]bool)
 	current := head
